@@ -4,7 +4,7 @@
 	position: fixed;
 	top: 0px;
 	z-index: 10000000000;
-	background: #161519 url(/loading-gif/giphy.gif) no-repeat center;
+	background: #161519 url(https://media.giphy.com/media/xTkcEQACH24SMPxIQg/giphy.gif) no-repeat center;
 	background-size: 50%;
 }
 .h2 {
