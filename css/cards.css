@@ -1,0 +1,54 @@
+.images {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+.text p {
+	color: red;
+}
+.col-6 {
+	border-radius: 20px;
+	margin-top: 20px;
+	background-color: white;
+}
+.col-6:hover {
+	border: none;
+	box-shadow: 0px 0px 20px black;
+	transform: scale(1.1);
+	transition: 0.4s;
+	z-index: 100;
+}
+.name {
+	color: black;
+}
+.new {
+	position: absolute;
+	top: 12px;
+	right: 21%;
+	background-color: rgb(40, 160, 40);
+	color: white;
+	height: 50px;
+	width: 50px;
+	border-radius: 100%;
+	padding-top: 13px;
+}
+.sold {
+	position: absolute;
+	top: 10px;
+	left: 40px;
+	background-color: rgba(0, 0, 0, 0.39);
+	height: 200px;
+	width: 200px;
+	border-radius: 100%;
+	padding-top: 30%;
+	color: white;
+	font-size: 20px;
+}
+@media only screen and (max-width: 900px) {
+	.sold {
+		height: 100px;
+		width: 100px;
+		font-size: 10px;
+		padding-top: 15%;
+	}
+}

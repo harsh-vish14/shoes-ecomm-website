@@ -1,0 +1,53 @@
+* {
+	margin: 0px 0px;
+	padding: 0px 0px;
+	box-sizing: border-box;
+}
+
+.footer {
+	background-color: black;
+	color: white;
+	margin-top: 50px;
+}
+.social-media {
+	text-align: left;
+	position: relative;
+	top: 20px;
+	left: 20px;
+}
+.fab {
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 20px;
+	transform: scale(1.0);
+	color: white;
+}
+.fa-facebook:hover {
+	transform: scale(1.2);
+	transition: ease-in-out;
+	color: #3b5999;
+	filter: drop-shadow(0px 0px 10px #0051ff);
+}
+.fa-instagram:hover {
+	transform: scale(1.2);
+	transition: ease-in-out;
+	color: #e4405f;
+	filter: drop-shadow(0px 0px 10px #ff002f);
+}
+.fa-twitter:hover {
+	transform: scale(1.2);
+	transition: ease-in-out;
+	color: #55acee;
+	filter: drop-shadow(0px 0px 10px #0091ff);
+}
+.fa-dribbble:hover {
+	transform: scale(1.2);
+	transition: ease-in-out;
+	color: #ea4c89;
+	filter: drop-shadow(0px 0px 10px #ff0062);
+}
+@media only screen and (max-width: 900px) {
+	h1 {
+		margin-top: 50px;
+	}
+}

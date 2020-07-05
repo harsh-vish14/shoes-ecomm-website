@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
+* {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	font-family: 'Dosis', sans-serif;
+	text-align: center;
+}
+.image {
+	background: url(https://images.unsplash.com/photo-1515099043957-2dae50c2fb3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60)
+		no-repeat center;
+	background-size: cover;
+	height: 91vh;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: top;
+}
+.text-logo {
+	height: 50px;
+	padding-top: 15px;
+	background-color: black;
+	color: white;
+	box-shadow: 0px 0px 10px black;
+}
+.items {
+	margin-top: 20px;
+}
+@media only screen and (max-width: 900px) {
+	body {
+		width: 100%;
+	}
+}
